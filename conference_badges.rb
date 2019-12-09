@@ -16,3 +16,4 @@ def assign_rooms(names)
   end
   return responses
 end
+
