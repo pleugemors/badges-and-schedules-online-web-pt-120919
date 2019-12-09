@@ -19,5 +19,5 @@ end
 
 def printer(names)
   attendees = batch_badge_creator(names)
-  puts attendees[0]
+  attendees.each{ |name|  puts name}
 end
