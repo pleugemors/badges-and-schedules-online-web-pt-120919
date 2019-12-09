@@ -19,5 +19,7 @@ end
 
 def printer(names)
   attendees = batch_badge_creator(names)
+  rooms = assign_rooms(names)
   attendees.each{ |name|  puts name}
+  rooms.each{|name| puts name }
 end
